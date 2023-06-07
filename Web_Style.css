@@ -1,10 +1,8 @@
 body {
     width: 100%;
-	height: 120vh;
+	height: 100vh;
 	align-items: center;
-	background: url('Web_background.png');
-
-    background-color: 	#babeff;
+	background: rgb(92, 92, 92);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -36,11 +34,15 @@ html {
 }
 
 .Destop-nav-Icon {
+
+    background: transparent;
     position: absolute;
     width: 100%;
     height: 80px;
-    background: transparent;
     border-bottom: .1px solid rgb(255, 255, 255);
+
+    z-index: -1;
+    
 }
 
 .Destop-nav-Icon ul {
@@ -74,6 +76,7 @@ html {
     margin-top: 37px;
     margin-left: 10px;
     border-radius: 50px;
+
 }
 
 
@@ -81,4 +84,68 @@ html {
     width: 100%;
     height: 100%;
     cursor: pointer;
+
 }
+
+.Main-container {
+    position: relative;
+    padding-top: 8em; 
+    
+
+    height: 50vh;
+    background: bisque;
+
+    overflow: hidden;
+    z-index: -3;
+
+    text-align: center;
+}
+
+.Cumcome {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    display: inline-block;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    height: 60px;
+
+}
+
+.Cumcome h1 {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    width: auto;
+    margin-top: .7em;
+    font-family: 'BoldThaiFont';
+}
+
+.Nayobaile {
+    position: relative;
+    color: white;
+    padding-top: 2em;
+    height: 20vh;
+
+    justify-content: center;
+    align-items: center;
+    top: 1em;
+    left: 0em;
+}
+
+.Nayobaile img {
+    max-width: 700px;
+}
+
+.Book {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -7em;
+    left: 18em;
+}
+
+.Book img {
+    max-width: 100px;
+    max-height: 200px;
+}
+
