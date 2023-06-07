@@ -13,6 +13,10 @@ body {
     background-position: 0px 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .Ham-menu {
     display: none;
 }
@@ -49,6 +53,11 @@ body {
     padding-top: 2em;
     padding-right: 1em;
     font-family: "BoldThaiFont";
+
+}
+
+.Destop-nav-Icon ul li a span {
+    color: white;
 }
 
 .logo {
