@@ -172,6 +172,10 @@
          padding-top: 4em;
          
      }
+
+     .Destop-nav-Icon ul li a span {
+        font-size: .8em;
+    }
 }
 
 @media (max-width: 768px) {
