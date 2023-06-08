@@ -1,5 +1,4 @@
 body {
-    width: 100%;
 	height: 100vh;
 	align-items: center;
 	background: rgb(92, 92, 92);
@@ -56,6 +55,7 @@ html {
     padding-right: 1em;
     font-family: "BoldThaiFont";
 
+
 }
 
 .Destop-nav-Icon ul li a span {
@@ -63,6 +63,7 @@ html {
 }
 
 .logo {
+    z-index: -1;
     position: absolute;
     width: 100%;
     height: 80px;
@@ -93,12 +94,22 @@ html {
     
 
     height: 50vh;
-    background: bisque;
+    background:white ;
+    filter: brightness(95%);
+    background-position: 0px -180em;
 
+    /* filter: blur(8px); */
+    /* background: linear-gradient(to right, #ff0050, #00f2ea, #757575); */
     overflow: hidden;
     z-index: -3;
 
     text-align: center;
+}
+
+.Main-container .imgtag {
+    position: absolute;
+    left: 0px;
+    top: -60em;
 }
 
 .Cumcome {
@@ -110,6 +121,8 @@ html {
     background: rgb(255, 255, 255);
     height: 60px;
 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: 2;
 }
 
 .Cumcome h1 {
@@ -118,6 +131,8 @@ html {
     width: auto;
     margin-top: .7em;
     font-family: 'BoldThaiFont';
+
+    
 }
 
 .Nayobaile {
@@ -130,10 +145,40 @@ html {
     align-items: center;
     top: 1em;
     left: 0em;
+
+    
 }
 
 .Nayobaile img {
     max-width: 700px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;
 }
 
 
+.central-container {
+    position: absolute;
+    background: rgb(45, 45, 64);
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+
+    overflow: hidden;
+}
+
+.Policy-title{
+    position: relative;
+    
+    border-radius: 10px;
+}
+
+.Policy-title h1 {
+
+    margin-top: 30px;
+    font-family: 'BoldThaiFont';
+    font-size: 2.8em;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    
+}
