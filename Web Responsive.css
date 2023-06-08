@@ -42,12 +42,40 @@
     }
 }
 
-@media screen and (max-height: 853px) {
 
+
+@media screen and (max-height: 853px) {
+    .Main-container {
+        height: 60vh;
+    }
+
+    .Nayobaile img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .Main-container {
+        height: 60vh;
+    }
+
+    .Nayobaile img {
+        height: 120px;
+    }
+}
+
+@media screen and (max-height: 625px) {
+    .Main-container {
+        height: 60vh;
+    }
+
+    .Nayobaile img {
+        height: 80px;
+    }
 }
 
 @media screen and (max-width: 1160px) {
-
+   
 }
 
 @media screen and (max-width: 1024px) {
