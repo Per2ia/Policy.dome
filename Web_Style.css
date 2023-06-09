@@ -217,4 +217,89 @@ html {
 .poster img {
 	width: 250px;
 	height: 250px;
+
+    
+}
+
+.Screen {
+    display: none
+}
+
+.Oncard {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    min-height: 470px;
+    background: #b6b6b6;
+    box-shadow: 15px 15px 60px rgb(0, 0, 0,0.15);
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .top .userDetails{
+    display: flex;
+    align-items: center;
+}
+
+.card .top .userDetails .profile_img {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .top .userDetails h3 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.imgBx {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin: 10px 0 15px;
+    object-fit: cover;
+    
+}
+
+.imgBx img {
+    border-radius: 10px;
+}
+
+.actionBtns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionBtns img {
+    max-width: 24px;
+    cursor: pointer;
+}
+
+.actionBtns .left img {
+    margin-right: 8px;
 }
