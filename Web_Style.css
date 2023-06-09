@@ -166,6 +166,25 @@ html {
     flex-grow: 1;
 
     overflow: hidden;
+
+
+}
+
+.line1 {
+ position: relative;
+ background: rgb(45, 45, 64);
+ width: 100%;
+ min-height: 10vh;
+}
+
+.class-derivation {
+    position: relative;
+    background: rgb(122, 85, 170);
+    width: 100%;
+    min-height: 100vh;
+    flex-grow: 1;
+
+    overflow: hidden;
 }
 
 .Policy-title{
@@ -191,11 +210,13 @@ html {
 	justify-content: center;
 	align-items: center;
     display: inline-block;
-	
+
 }
 
 .central-container .Oncard ul{
-    display: inline-block;
+    display: block;
+    
+    flex-direction: row;
     margin-left: 10%;
     justify-content: center;
 	align-items: center;
