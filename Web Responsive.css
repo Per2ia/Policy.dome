@@ -43,9 +43,15 @@
 @media (min-width: 1536px) {
     .container {
         max-width:1536px
+
+        
     }
 
+
+
 }
+
+
 
 
 
@@ -69,11 +75,29 @@
     }
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1554px) {
+    
+}
 
+@media screen and (max-width: 1116px) {
+    .central-container .Oncard ul{
+
+        margin-left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    
 }
 
 @media screen and (max-width: 1024px) {
+    .central-container .Oncard ul{
+        display: flex;
+        
+        flex-direction: column;
+
+        margin-left: 0% !important;
+    }
 }
 
 
