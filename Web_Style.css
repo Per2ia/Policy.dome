@@ -25,15 +25,13 @@ html {
 }
 
 .nav-container {
-    background: black;
     position: relative;
-    z-index: 5;
     width: 100%;
     height: 80px;
     background: transparent;
 }
 
-.Destop-nav-Icon {
+#navbar {
 
     background: transparent;
     position: absolute;
@@ -41,11 +39,11 @@ html {
     height: 80px;
     border-bottom: .1px solid rgb(255, 255, 255);
 
-    z-index: -1;
+    z-index: 2;
     
 }
 
-.Destop-nav-Icon ul {
+#navbar ul {
     position: relative;
     display: flex;
     justify-content: right;
@@ -59,9 +57,10 @@ html {
 
 }
 
-.Destop-nav-Icon ul li a span {
-    color: white;
+#navbar ul li a span {
+    color: rgb(255, 255, 255);
     font-size: 1.2em;
+    
 }
 
 .logo {
@@ -112,6 +111,10 @@ html {
     position: absolute;
     left: 0px;
     top: -60em;
+
+    min-width: 100%;
+    min-height: 100vh;
+    
 }
 
 .Cumcome {
@@ -159,7 +162,7 @@ html {
 
 
 .central-container {
-    position: absolute;
+    position: relative;
     background: rgb(45, 45, 64);
     width: 100%;
     min-height: 100vh;
@@ -177,9 +180,27 @@ html {
  min-height: 10vh;
 }
 
+.line2 {
+    position: relative;
+    background: rgb(110, 110, 110);
+    width: 100%;
+    min-height: 10vh;
+   }
+
 .class-derivation {
     position: relative;
-    background: rgb(122, 85, 170);
+    background: rgb(110, 110, 110);
+    width: 100%;
+    min-height: 100vh;
+    flex-grow: 1;
+
+    overflow: hidden;
+}
+
+.member-directory
+{
+    position: relative;
+    background: rgb(45, 45, 64);
     width: 100%;
     min-height: 100vh;
     flex-grow: 1;
@@ -205,7 +226,7 @@ html {
 }
 
 
-.central-container .Oncard ul li {
+.Oncard ul li {
 	position: relative;
 	justify-content: center;
 	align-items: center;
@@ -213,7 +234,7 @@ html {
 
 }
 
-.central-container .Oncard ul{
+.Oncard ul{
     display: block;
     
     flex-direction: row;
@@ -256,7 +277,7 @@ html {
     position: relative;
     width: 500px;
     min-height: 470px;
-    background: #b6b6b6;
+    background: #ffffff88;
     box-shadow: 15px 15px 60px rgb(0, 0, 0,0.15);
     padding: 20px;
     left: 50%;

@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 1116px) {
-    .central-container .Oncard ul{
+    .Oncard ul{
 
         margin-left: 0% !important;
     }
@@ -91,7 +91,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .central-container .Oncard ul{
+    .Oncard ul{
         display: flex;
         
         flex-direction: column;
