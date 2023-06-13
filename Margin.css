@@ -19,8 +19,8 @@ header, footer, figure, figcaption, details {
 
 video, audio, canvas {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    display: inline;
+    zoom: 1;
 }
 
 audio:not([controls]) {
@@ -136,7 +136,7 @@ sup {
 }
 
 br {
-    *letter-spacing: 0;
+    letter-spacing: 0;
 }
 
 
@@ -188,7 +188,7 @@ fieldset {
 
 legend {
     border: 0;
-    *margin-left: -7px;
+    margin-left: -7px;
 }
 
 input, button, select, textarea {
@@ -201,7 +201,7 @@ input, button, select, textarea {
 input, button {
     line-height: normal;
     vertical-align: inherit;
-    *vertical-align: middle;
+    vertical-align: middle;
 }
 
 input::-moz-focus-inner,
@@ -237,7 +237,7 @@ input[type="button"],
 button {
     cursor: pointer;
     -webkit-appearance: button;
-    *overflow: visible;
+    overflow: visible;
 }
 
 select {
@@ -248,5 +248,5 @@ select {
 textarea {
     vertical-align: top;
     overflow: auto;
-    *font-family: sans-serif;
+    font-family: sans-serif;
 }
